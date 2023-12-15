@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-lvnmlg
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-jtrx-tenant/jvm-build-suite-application-mciy/jvm-build-suite-component-lvnmlg@sha256:4ceda5db5ab95ab890faf1e9a86c9d3e9e841c091b6a41ea2fd736356d02d83c
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
