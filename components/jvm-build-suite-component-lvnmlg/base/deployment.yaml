@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-lvnmlg
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/jvm-build-jtrx-tenant/jvm-build-suite-application-mciy/jvm-build-suite-component-lvnmlg@sha256:4ceda5db5ab95ab890faf1e9a86c9d3e9e841c091b6a41ea2fd736356d02d83c
+      - image: quay.io/redhat-appstudio-qe/jvm-build-jtrx-tenant/jvm-build-suite-application-mciy/jvm-build-suite-component-lvnmlg@sha256:a4e4662dfe278a19c9bc771640ac54b5e69e6eafeb19fc3e64a4283e532398d8
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
